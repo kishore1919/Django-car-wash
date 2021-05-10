@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Display:wght@300&family=Fredoka+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  ::-webkit-scrollbar{
+      width: 10px;
+  }
+  ::-webkit-scrollbar-thumb{
+      background: rgba(29, 29, 29, 0.904);
+      border-radius: 1px;
+  }
+  ::-webkit-scrollbar-track{
+      box-shadow:  inset 0 0 1px rgb(255, 255, 255);
+  }
+.header{
+    border-bottom: 1px solid;
+    box-shadow: 0px 3px 5px 0px #121111;
+}
+#content{
+    background-color: rgba(0, 98, 255, 0.315); 
+    min-height:100vmin;
+    width: 100%;
+    padding-top: 20px;
+}
+
+#booking{
+    background-color:darkslategray;
+    min-height:100vmin;
+    width: 100%;
+}
+
+#content h3{
+    font-size: 40px;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+}
+#content p{
+    font-size: 20px;
+    text-align: center;
+}
+#cards{
+    max-width: 60rem;
+    padding: 0px 30px;
+    margin: auto;
+}
+#card1{
+    border: 10px solid white; 
+}
+.booking{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    color: azure;
+}
+.cardBooking{
+    margin: 55px 50px;
+    justify-content: space-around;
+    display: flex;
+}
+.card-text{
+    width: 20rem;
+}
+#form-card{
+    width: 50rem;
+    border: 20px solid white;
+    display: inline-block;
+}
+.address{
+    margin: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+@media only screen and (max-width: 700px){
+    
+  #col{
+      margin:0 10px 10px 0;
+  }
+  #form-card{
+    width: 335px;
+    margin-top: 15px;
+}
+.cardBooking{
+    display: inline-block;
+    justify-content: unset;
+}
+
+}

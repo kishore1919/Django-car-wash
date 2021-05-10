@@ -1,0 +1,34 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Businnes, Portfolio, Corporate"> 
+	<meta name="Kishore_selvaraj"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K | carwash</title>
+    <link rel="icon" href="{%static 'home/images/wash.png'%}" type="image/gif" sizes="16x16"> 
+    <link rel="stylesheet" href="{% static 'home/css/index.css'%}">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+   <link rel="stylesheet" href="dist/css/slider-pro.min.css"/>
+</head>
+<body>
+    {% include 'home/navbar.html'%}
+    {% include 'home/main.html'%}
+    {%block content%}
+
+
+    {%endblock%}
+    <script src="libs/js/jquery-1.11.0.min.js"></script>
+    <script src="dist/js/jquery.sliderPro.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    <script src="{%static 'home/js/script.js' %}" defer></script>
+    
+</body>
+
+</html>
