@@ -1,0 +1,11 @@
+version: '3'
+
+services: 
+  web:
+  #To build the current folder
+    build: .
+  #command to run the Django project
+    command: python manage.py runserver 0:8000
+  #expose port 8000 to 8000
+    ports: 
+      - 8000:8000
