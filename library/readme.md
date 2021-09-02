@@ -31,3 +31,11 @@ cd library
 pip install requirements.txt
 python manage.py runserver
 ```
+## Installation With  Docker
+The project also supports the Docker
+
+```sh
+cd libdary && cd mysite
+docker-compose up
+Open localhost:8000
+```
