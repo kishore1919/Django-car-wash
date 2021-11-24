@@ -1,5 +1,5 @@
 # import the python image from Docker hub
-FROM python:3
+FROM python:3.10.0b2
 # for Log purpose
 ENV PYTHONUNBUFFERED = 1
 # create a work directory
